@@ -10,16 +10,16 @@ ul{
     list-style-type: none;
 }
 /* ----------header---------- */
-header{
-    display: flex;
-}
 nav{
-    /* display: flex; */
+    display: flex;
     /* justify-content: space-between; */
 }
+address{
+    font-style: normal;
+    display: flex;
+}
 .container-header{
-    /* display: flexbox; */
-    justify-content: space-around;
+    display: flex;
 }
 .logo-top{
     text-decoration: none;
@@ -132,10 +132,7 @@ nav{
     letter-spacing: 0.02em;
     padding-left: 1133px;
 }
-address{
-    font-style: normal;
-    
-}
+
 /* ----------main---------- */
 .container-hero-image{
     max-width: 1158px;
