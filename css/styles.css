@@ -12,11 +12,13 @@ ul{
 /* ----------header---------- */
 nav{
     display: flex;
+    
     /* justify-content: space-between; */
 }
 address{
     font-style: normal;
     display: flex;
+    flex-direction: row-reverse;
 }
 .container-header{
     display: flex;
@@ -32,9 +34,9 @@ address{
     /* padding: 24px 0 24px 156px; */
 }
 .navigation{
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
     /* justify-content: space-between; */
-    flex-flow: nowrap;
+    /* flex-flow: nowrap; */
     padding-left: 347px;
     /* align-items: center; */
     /* gap: 40px; */
