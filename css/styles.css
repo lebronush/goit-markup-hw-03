@@ -1,6 +1,4 @@
-*{
-    margin: 0;
-}
+
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -8,47 +6,48 @@ body{
 }
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2, h3, h4, h5, h6, p{
+    margin: 0;
 }
 /* ----------header---------- */
-nav{
-    /* gap: 40px; */
-    /* flex-wrap: wrap; */
-    /* display: flex; */
-    
-    /* justify-content: space-between; */
+.page-header{
+    border-bottom: 1px solid var(--cornflower);
 }
-address{
-    font-style: normal;
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
-}
-.container-header{
+.nav-list{
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    /* flex-wrap: wrap; */
+    align-items: center;
+}
+.address-list{
+    font-style: normal;
+    margin-left: auto;
+}
+.contacts-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .logo-top{
     text-decoration: none;
-    width: 115px;
-    height: 24px;
-    flex-direction: row;
-    padding-top: 24px;
-    padding-left: 156px;
-    padding-bottom: 24px;
-    /* padding: 24px 0 24px 156px; */
+    margin-right: 76px;
+    padding: 24px 0;
 }
 .navigation{
-    /* flex-wrap: nowrap; */
-    /* justify-content: space-between; */
-    /* flex-flow: nowrap; */
-    padding-left: 347px;
-    /* align-items: center; */
+    display: flex;
+    align-items: center;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
-
 .web-top{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -56,11 +55,7 @@ address{
     color: #4D5AE5;    
     letter-spacing: 0.03em;
     line-height: 1.17;
-    margin-left: 156px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    /* margin-right: 76px; */
-    /* padding-left: 156px; */
+    
 }
 .studio-top{
     font-family: "Raleway", sans-serif;
@@ -69,8 +64,7 @@ address{
     color: #2E2F42;
     letter-spacing: 0.03em;
     line-height: 1.17;
-    margin-top: 24px;
-    margin-right: 76px;
+    
 }
 .studio:hover{
     color: #404bbf;
@@ -86,6 +80,9 @@ address{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
+
 }
 .portfolio:hover{
     color: #404bbf;
@@ -101,6 +98,8 @@ address{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;;
 }
 .contacts:hover{
     color: #404bbf;
@@ -116,6 +115,8 @@ address{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
 }
 .mail:hover{
     color: #404bbf;
@@ -129,10 +130,7 @@ address{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 332px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    /* padding-left: 940px; */
+    padding: 24px 0;
 }
 .phone-number:hover{
     color: #404bbf;
@@ -146,8 +144,7 @@ address{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 40px;
-    /* padding-left: 1133px; */
+    padding: 24px 0;
 }
 
 /* ----------main---------- */
@@ -189,13 +186,8 @@ address{
     color: #FFFFFF;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    /* padding: 16px 32px; */
     width: 169px;
-    height: 56px;
-    margin-left: 636px;
-    /* margin-top: 48px; */
-    margin-bottom: 188px;
-    /* margin-right: 635px; */
+    
 }
 .text-button{
     color: #FFFFFF;
@@ -250,7 +242,6 @@ address{
 .portfolio-five,
 .portfolio-six{
     text-decoration: none;
-
 }
 
 /* ----------footer---------- */
