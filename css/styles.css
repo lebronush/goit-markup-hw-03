@@ -12,7 +12,7 @@ ul{
 h1,h2, h3, h4, h5, h6, p{
     margin: 0;
 }
-/* ----------header---------- */
+/* --------------------header-------------------- */
 .page-header{
     border-bottom: 1px solid var(--cornflower);
 }
@@ -147,7 +147,7 @@ h1,h2, h3, h4, h5, h6, p{
     padding: 24px 0;
 }
 
-/* ----------main---------- */
+/* --------------------main-------------------- */
 .container-hero-image{
     max-width: 1440px;
     height: 600px;
@@ -159,6 +159,7 @@ h1,h2, h3, h4, h5, h6, p{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .paragraph{
     font-family: "Roboto", sans-serif;
@@ -169,6 +170,7 @@ h1,h2, h3, h4, h5, h6, p{
 .hero-image{
     background-color: #2E2F42;
     text-align: center;
+    margin-top: 14px;
 }
 .button-logo:hover{
     background-color: #404bbf;
@@ -186,8 +188,8 @@ h1,h2, h3, h4, h5, h6, p{
     color: #FFFFFF;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    width: 169px;
-    
+    margin: 48px auto 188px;
+    padding: 16px 32px;
 }
 .text-button{
     color: #FFFFFF;
@@ -203,15 +205,44 @@ h1,h2, h3, h4, h5, h6, p{
     color: #FFFFFF;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-top: 188px;
-    padding-left: 472px;
-    padding-bottom: 48px; 
-    /* padding-right: 472px; */
-    /* padding: 188px 472px 48px 472px; */
+    /* padding: 188px 472px 0; */
 }
+.container-logo{
+    padding: 188px 190px 0;
+    /* padding: 188px; */
+}
+.container-features{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.features{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.motivation-sheet{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
 .our-team{
     background-color: #F4F4FD;
     text-align: center;
+    padding: 120px 0;
+    
+}
+.container-team{
+
 }
 .heading-our-team{
     font-family: "Roboto", sans-serif;
@@ -220,13 +251,28 @@ h1,h2, h3, h4, h5, h6, p{
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 72px;
+}
+.card-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.heading-card{
+    margin: 32px auto 8px;
+}
+.paragraph-card{
+    margin: 0 auto 0;
 }
 .card-one,
 .card-two,
 .card-three,
 .card-four{
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
 }
+
 .our-portfolio{
     font-size: 36px;
     font-weight: 700;
@@ -244,7 +290,7 @@ h1,h2, h3, h4, h5, h6, p{
     text-decoration: none;
 }
 
-/* ----------footer---------- */
+/* --------------------footer-------------------- */
 footer{
     background-color: #2E2F42;
 }
