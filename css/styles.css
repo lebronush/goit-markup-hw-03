@@ -317,6 +317,7 @@ img{
 .portfolio-four,
 .portfolio-five,
 .portfolio-six{
+    display: block;
     text-decoration: none;
     /* border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
