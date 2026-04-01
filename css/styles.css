@@ -134,6 +134,7 @@ img{
     color: #404bbf;
 }
 .mail{
+    display: block;
     font-style: normal;
     color: #434455;
     text-decoration: none;
@@ -148,6 +149,7 @@ img{
     color: #404bbf;
 }
 .phone-number{
+    display: block;
     font-style: normal;
     color: #434455;
     text-decoration: none;
