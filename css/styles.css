@@ -72,7 +72,9 @@ img{
 .studio:hover{
     color: #404bbf;
 }
-.studio:active
+.studio:active{
+
+}
 .studio:focus{
     color: #404bbf;
 }
@@ -90,7 +92,9 @@ img{
 .portfolio:hover{
     color: #404bbf;
 }
-.portfolio:active
+.portfolio:active{
+
+}
 .portfolio:focus{
     color: #404bbf;
 }
@@ -107,7 +111,9 @@ img{
 .contacts:hover{
     color: #404bbf;
 }
-.contacts:active
+.contacts:active{
+    
+}
 .contacts:focus{
     color: #404bbf;
 }
@@ -223,6 +229,10 @@ img{
 .container-features{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.list{
+    width: calc((100% - 72px) / 4);
+    /* flex: 0 0 calc((100% - 72px) / 4); */
 }
 .visually-hidden{
     position: absolute;
