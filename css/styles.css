@@ -232,17 +232,11 @@ h1,h2, h3, h4, h5, h6, p{
     align-items: center;
     gap: 24px;
 }
-
-
-
 .our-team{
     background-color: #F4F4FD;
     text-align: center;
     padding: 120px 0;
     
-}
-.container-team{
-
 }
 .heading-our-team{
     font-family: "Roboto", sans-serif;
@@ -272,7 +266,15 @@ h1,h2, h3, h4, h5, h6, p{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px;
 }
+.container-portfolio{
+    padding: 120px 0;
 
+}
+.portfolio-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
 .our-portfolio{
     font-size: 36px;
     font-weight: 700;
@@ -280,6 +282,7 @@ h1,h2, h3, h4, h5, h6, p{
     color: #2E2F42;
     letter-spacing: 0.02em;
     line-height: 1.11;
+    margin-bottom: 72px;
 }
 .portfolio-one,
 .portfolio-two,
@@ -288,29 +291,21 @@ h1,h2, h3, h4, h5, h6, p{
 .portfolio-five,
 .portfolio-six{
     text-decoration: none;
+    border: 1px solid var(--cornflower);
 }
+.heading-info{
+    margin: 32px 0 8px 16px;
+}
+.paragraph-info{
+    margin: 0 0 32px 16px;
+} 
 
 /* --------------------footer-------------------- */
 footer{
     background-color: #2E2F42;
 }
-.studio-bottom{
-    font-family: "Raleway", sans-serif;
-    color: #F4F4FD;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
-}
-.text{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
-.logo-bottom{
-    text-decoration: none;
+.container-footer{
+    padding: 100px 864px 100px 0 ;
 }
 .web-bottom{
     font-family: "Raleway", sans-serif;
@@ -319,5 +314,27 @@ footer{
     color: #4D5AE5;    
     letter-spacing: 0.03em;
     line-height: 1.17;
-    padding: 156px 25.5px 1240px 25.5px;
+    /* margin: 101.5px 0 0 0; */
+}
+
+.studio-bottom{
+    font-family: "Raleway", sans-serif;
+    color: #F4F4FD;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+
+}
+.text{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    margin-top: 16px ;
+}
+.logo-bottom{
+    text-decoration: none;
+    margin: 101.5px 0 0 0;
 }
