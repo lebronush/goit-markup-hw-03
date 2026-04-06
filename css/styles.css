@@ -4,53 +4,65 @@ body{
     color: #434455;
     background-color: #fff;
 }
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 h1,h2, h3, h4, h5, h6, p{
     margin: 0;
 }
+
 img{
     display: block;
 }
+
 /* --------------------header-------------------- */
 .page-header{
     border-bottom: 1px solid #E7E9FC;
 }
+
 .nav-list{
     display: flex;
     align-items: center;
 }
+
 .address-list{
     font-style: normal;
     margin-left: auto;
 }
+
 .contacts-list{
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
 .header-container{
     display: flex;
     align-items: center;
 }
+
 .container{
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .logo-top{
     text-decoration: none;
     margin-right: 76px;
     padding: 24px 0;
 }
+
 .navigation{
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
 .web-top{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -60,6 +72,7 @@ img{
     line-height: 1.17;
     
 }
+
 .studio-top{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -69,15 +82,19 @@ img{
     line-height: 1.17;
     
 }
+
 .studio:hover{
     color: #404bbf;
 }
+
 .studio:active{
 
 }
+
 .studio:focus{
     color: #404bbf;
 }
+
 .studio{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -87,17 +104,20 @@ img{
     letter-spacing: 0.02em;
     display: block;
     padding: 24px 0;
-
 }
+
 .portfolio:hover{
     color: #404bbf;
 }
+
 .portfolio:active{
 
 }
+
 .portfolio:focus{
     color: #404bbf;
 }
+
 .portfolio{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -108,15 +128,19 @@ img{
     display: block;
     padding: 24px 0;;
 }
+
 .contacts:hover{
     color: #404bbf;
 }
+
 .contacts:active{
 
 }
+
 .contacts:focus{
     color: #404bbf;
 }
+
 .contacts{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -127,12 +151,15 @@ img{
     display: block;
     padding: 24px 0;
 }
+
 .mail:hover{
     color: #404bbf;
 }
+
 .mail:focus{
     color: #404bbf;
 }
+
 .mail{
     display: block;
     font-style: normal;
@@ -142,12 +169,15 @@ img{
     letter-spacing: 0.02em;
     padding: 24px 0;
 }
+
 .phone-number:hover{
     color: #404bbf;
 }
+
 .phone-number:focus{
     color: #404bbf;
 }
+
 .phone-number{
     display: block;
     font-style: normal;
@@ -159,10 +189,6 @@ img{
 }
 
 /* --------------------main-------------------- */
-/* .container-hero-image{
-    max-width: 1440px;
-    height: 600px;
-} */
 .heading{
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
@@ -172,26 +198,30 @@ img{
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
+
 .paragraph{
     font-family: "Roboto", sans-serif;
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .hero-image{
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 0 188px;
-    /* margin-top: 14px; */
 }
+
 .button-logo:hover{
     background-color: #404bbf;
     cursor: pointer;
 }
+
 .button-logo:focus{
     background-color: #404bbf;
     cursor: pointer;
 }
+
 .button-logo{
     background-color: #4D5AE5;
     cursor: pointer;
@@ -201,10 +231,9 @@ img{
     letter-spacing: 0.04em;
     border-radius: 4px;
     border: none;
-    
-    /* margin: 48px auto 188px; */
     padding: 16px 32px;
 }
+
 .text-button{
     color: #FFFFFF;
     font-weight: 500;
@@ -212,6 +241,7 @@ img{
     line-height: 1.5;
     font-size: 16px;
 }
+
 .logo{
     max-width: 496px;
     text-align: center;
@@ -221,21 +251,23 @@ img{
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
 .container-logo{
     display: flex;
     flex-direction: column;
     gap: 48px;
-    /* padding: 188px 316px 0; */
     align-items: center;
 }
+
 .container-features{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .list{
     width: calc((100% - 72px) / 4);
-    /* flex: 0 0 calc((100% - 72px) / 4); */
 }
+
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -248,17 +280,20 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .motivation-sheet{
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
 .our-team{
     background-color: #F4F4FD;
     text-align: center;
     padding: 120px 0;
     
 }
+
 .heading-our-team{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -268,20 +303,17 @@ img{
     color: #2E2F42;
     margin-bottom: 72px;
 }
+
 .card-list{
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
 .teams{
     padding: 32px 16px;
 }
-/* .heading-card{
-    margin: 32px auto 8px;
-}
-.paragraph-card{
-    margin: 0 auto 0;
-} */
+
 .card-one,
 .card-two,
 .card-three,
@@ -289,19 +321,22 @@ img{
     flex: 0 0 calc((100% - 3 * 24px) / 4);
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    /* padding: 0px 0px 32px; */
 }
+
 .container-portfolio{
     padding: 120px 0;
 }
+
 .portfolio-card{
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
 }
+
 .list-portfolio{
     width: calc((100% - 48px) / 3);
 }
+
 .our-portfolio{
     font-size: 36px;
     font-weight: 700;
@@ -311,6 +346,7 @@ img{
     line-height: 1.11;
     margin-bottom: 72px;
 }
+
 .portfolio-one,
 .portfolio-two,
 .portfolio-three,
@@ -319,33 +355,26 @@ img{
 .portfolio-six{
     display: block;
     text-decoration: none;
-    /* border-bottom: 1px solid #E7E9FC;
-    border-left: 1px solid #E7E9FC;
-    border-right: 1px solid #E7E9FC; */
 }
+
 .portfolio-text{
     padding: 32px 16px;
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
 }
-/* .heading-info{
-    margin: 32px 0 8px 16px;
-}
-.paragraph-info{
-    margin: 0 0 32px 16px;
-}  */
 
 /* --------------------footer-------------------- */
 .footer{
     background-color: #2E2F42;
     padding: 100px 0;
 }
+
 .container-footer{
     display: flex;
     flex-direction: column;
-    /* padding: 100px 864px 100px 0 ; */
 }
+
 .web-bottom{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -365,6 +394,7 @@ img{
     line-height: 1.17;
 
 }
+
 .text{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -374,6 +404,7 @@ img{
     margin-top: 16px ;
     max-width: 264px;
 }
+
 .logo-bottom{
     text-decoration: none;
     /* margin: 100px 0 0 0; */
